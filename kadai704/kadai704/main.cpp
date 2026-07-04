@@ -100,6 +100,9 @@ int main()
 	std::cout << "Slime‚ÌHP‚Í" << Slimehp << std::endl;
 	std::cout << "Goblin‚ÌHP‚Í" << Goblinhp << std::endl;
 	
-	
+	while (true) {
+
+		int Attack();
+	}
 
 }
