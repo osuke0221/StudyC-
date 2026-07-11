@@ -124,6 +124,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CodeBreaker　hukushuu.cpp" />
+    <ClCompile Include="DispResult.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Judge.cpp" />
+    <ClCompile Include="Number.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Result.cpp" />
+    <ClCompile Include="ソース.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DispResult.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Judge.h" />
+    <ClInclude Include="Number.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Result.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

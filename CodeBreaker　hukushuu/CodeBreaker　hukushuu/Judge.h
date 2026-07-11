@@ -2,13 +2,15 @@
 
 #include "Input.h"
 #include "Random.h"
+#include"Result.h"
 class Judge
 {
 public:
 	//ランダム値と入力値の情報を受け取って	、比較して、結果を教える
-	Result judge compare(const Random& rand, const Input& input) {
+	Result compare(const Number& rand, const Input& input);
 
-	}
+	
+	
 	                                      /* そのまま書いた
 	                                       void getRandom(const Random& rand);
 	                                       void getInput(const Input& rand);

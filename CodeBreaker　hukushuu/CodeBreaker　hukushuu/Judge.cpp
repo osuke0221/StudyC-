@@ -2,7 +2,7 @@
 
 
 //ランダム値と入力値の情報を受け取って	、比較して、結果を教える
-Result Judge::compare(const Random& rand, const Input& input) {
+Result Judge::compare(const Random& rand, const Number& input) {
 
 	// ランダム値と入力値の情報を受け取るための箱を宣言
 	int rn[4];
@@ -44,5 +44,8 @@ Result Judge::compare(const Random& rand, const Input& input) {
 			blowNum++;
 		}
 	}
+	Result res;
+
 }
+
 

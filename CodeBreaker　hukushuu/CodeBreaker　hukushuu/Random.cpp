@@ -1,6 +1,7 @@
 #include "Random.h"
 #include<stdlib.h>
 #include<time.h>
+#include"Number.h"
 
 void Random::generate()
 {
@@ -27,7 +28,7 @@ void Random::generate()
 	}
 }
 
-void Random::getValue(int* v, int size) const
+void Number::getValue(int* v, int size) const
 {
 	// vは既に外で配列として宣言されている,その先頭にアドレスが入る
 	//size　は配列に要素数が入っている
